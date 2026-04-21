@@ -110,7 +110,7 @@ main {
 /* hero section */
 .hero-section {
     padding: 80px 80px;
-    width: 90vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
