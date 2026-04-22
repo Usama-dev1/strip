@@ -168,9 +168,13 @@ main {
     border-radius: 5px;
 }
 
+
 .hero-section button:first-child {
     color: white;
     background-color: #533AFD;
+}
+.hero-section button:first-child:hover  {
+border: 1px solid black;
 }
 
 .hero-section button:nth-child(2) {
@@ -183,6 +187,9 @@ main {
     align-items: center;
     justify-content: center;
     gap: 5px;
+}
+.hero-section button:nth-child(2):hover {
+    border: 1px solid black;
 }
 
 .hbtn-container {
