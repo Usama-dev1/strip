@@ -1,3 +1,4 @@
+/* reset all browser css */
 *,
 *::after,
 *::before {
@@ -12,6 +13,8 @@ body {
     background-color: whitesmoke;
     min-height: 100vh;
 }
+
+/* header section */
 
 header {
     justify-content: center;
@@ -28,6 +31,7 @@ header {
     justify-items: center;
 }
 
+/* navbar starts here*/
 .navbar {
     display: flex;
     width: 90%;
@@ -100,6 +104,41 @@ header {
     border: 1px solid #533AFD;
 }
 
+/* dropmenu */
+.dropmenu-products {
+    display: none;
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 80px;
+    top: 70px;
+    left: 70px;
+    justify-content: space-between;
+}
+.dropmenu-links{
+    display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: flex-start;
+        justify-content: flex-start;
+}
+
+.dropmenu-links li>a{
+    text-decoration: underline;
+    letter-spacing: -1px;
+    color: #533AFD;
+}
+
+.nav-links li:hover .dropmenu-products {
+    display: flex;
+}
+
+.dropmenu-label
+{
+
+}
+/* main section */
 main {
     display: flex;
     flex-direction: column;
@@ -151,6 +190,9 @@ main {
     gap: 10px;
 }
 
+
+/* 
+logo banner area */
 .logo-banner-area {
     width: 100%;
     max-width: 1200px;
